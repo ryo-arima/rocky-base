@@ -8,6 +8,7 @@ RUN dnf install 'dnf-command(config-manager)' && \
 RUN dnf install -y rpm-build \
                    rpmdevtools \
                    wget \
+                   jq \
                    gh
 
 # Install Go
